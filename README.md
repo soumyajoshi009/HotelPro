@@ -20,16 +20,16 @@ You need Node.js 18+ and MongoDB (local, or a free MongoDB Atlas cluster).
 # 1. API
 cd server
 npm install
-cp .env.example .env      # then edit MONGO_URI and JWT_SECRET
+# Create a .env file manually and configure MONGO_URI and JWT_SECRET
 npm run seed              # sample rooms and demo accounts
 npm run dev               # http://localhost:5000
 
 # 2. Client (new terminal)
 cd client
 npm install
-cp .env.example .env
 npm run dev               # http://localhost:5173
 ```
+
 
 ## Demo accounts (after seeding)
 | Role  | Email              | Password |
